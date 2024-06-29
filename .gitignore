@@ -1,0 +1,10 @@
+_opam
+_build
+*.out
+node_modules
+.vscode
+run
+*gradle*
+build
+.idea
+bin
