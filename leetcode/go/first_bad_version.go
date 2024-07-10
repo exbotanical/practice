@@ -1,5 +1,4 @@
 // https://leetcode.com/problems/first-bad-version
-
 package main
 
 const firstBad = 1
@@ -27,8 +26,4 @@ func firstBadVersion(n int) int {
 	}
 
 	return -1
-}
-
-func main() {
-	println(firstBadVersion(1))
 }

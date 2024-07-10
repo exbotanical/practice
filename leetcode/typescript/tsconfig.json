@@ -6,7 +6,7 @@
     "declaration": true,
     "declarationDir": ".build",
     "module": "ESNext",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "target": "ES2015",
     "strict": true,
     "moduleResolution": "node",
