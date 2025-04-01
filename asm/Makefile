@@ -2,7 +2,7 @@ CC ?= gcc
 CFLAGS := -no-pie
 TARGET := run
 
-%: %.S
+%: %.s
 	$(CC) $(CFLAGS) -o $(TARGET) $<
 
 clean:

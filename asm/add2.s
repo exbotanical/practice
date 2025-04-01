@@ -7,7 +7,7 @@ long_fmt: .string "%ld\n"
 add2:
   enter $0, $0
 
-   add $2, %rdi
+  add $2, %rdi
   mov %rdi, %rax
 
   leave

@@ -48,9 +48,3 @@ int main() {
 
   assert(valid_braces("[({})](]") == false);
 }
-/*
-  stack=[   "[", "(",  "{" ]
-  next=[]
-  [([]{})]
-
-*/
